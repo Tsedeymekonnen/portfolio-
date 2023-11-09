@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width:50%;
+   margin-left: 20%;
+   margin-top: 5%;
+   margin-bottom: 5%;
+   height:max-content ;
+  }
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .description {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  a{
+    color: blue;
+  }
+  a:hover {
+    text-decoration: underline;
+  }

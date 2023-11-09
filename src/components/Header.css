@@ -1,0 +1,60 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0); */
+  border-bottom: 1px solid rgb(97, 95, 95);
+  /* background-color: beige; */
+}
+
+.branding {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  animation-name: moveLeft;
+  animation-duration: 15s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  
+}
+
+@keyframes moveLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.link-container {
+  display: flex;
+  align-items: center;
+}
+
+.link-container a {
+  margin-left: 10px;
+}
