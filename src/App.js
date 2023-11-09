@@ -14,6 +14,7 @@ function App() {
       <BrowserRouter>
       <Header />
       <Routes>
+        <Route  path="/portfolio-" element={<Home/>} />
         <Route  path="/" element={<Home/>} />
         <Route  path="/AboutUs.js" element={<AboutUs/>} />
         <Route  path = "/ContactUs.js" element = {<ContactUs/>}/> 
