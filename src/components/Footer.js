@@ -17,14 +17,12 @@ const Footer = () => {
       </div>
       <div className="social-media-container">
            
-        <a href="https://www.facebook.com/yourprofile" target="_blank" rel="noopener noreferrer">
-          <FaFacebook className="social-media-icon" />
-        </a>
-        <a href="https://www.facebook.com/yourprofile" target="_blank" rel="noopener noreferrer">
+       
+        <a href="https://t.me/TsedeyMekonnen" target="_blank" rel="noopener noreferrer">
           <FaTelegram className="social-media-icon" />
         </a>
 
-        <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/tsedey-mekonnen-118a92262/" target="_blank" rel="noopener noreferrer">
           <FaLinkedin className="social-media-icon" />
         </a>
         <a href="https://www.instagram.com/yourprofile" target="_blank" rel="noopener noreferrer">

@@ -8,6 +8,7 @@ import Home from './components/Home'
 import { BrowserRouter,  Route, Link } from 'react-router-dom';
 import { Routes } from 'react-router-dom';
 import Footer from './components/Footer'
+import Cvs from './components/Cvs'
 function App() {
   return (
     <div className="App">
@@ -19,6 +20,7 @@ function App() {
         <Route  path="/AboutUs.js" element={<AboutUs/>} />
         <Route  path = "/ContactUs.js" element = {<ContactUs/>}/> 
         <Route  path = "/Experience.js" element = {<Experience/>}/> 
+        <Route  path = "/cv.js" element = {<Cvs/>}/> 
 
       </Routes>
       <Footer/>
